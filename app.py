@@ -272,7 +272,7 @@ with tab2:
         CropCareSpecialist-->>CriticAgent: [SUBTASK_RESPONSE] Draft Agronomic Output
         CriticAgent->>User: [CRITIQUE_RESPONSE] Final Approved Report (Score: 95/100)
     """
-    st.mermaid(sample_mermaid)
+    st.code(sample_mermaid, language="mermaid")
 
 # ---------------------------------------------------------
 # TAB 3: Model Selection Strategy
