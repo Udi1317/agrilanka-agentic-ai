@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment and Secrets
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Vector Store / Cache Index
+vector_store_cache/
+.chroma/
+
+# Testing & IDE
+.pytest_cache/
+.vscode/
+.idea/
+*.swp
+.DS_Store
